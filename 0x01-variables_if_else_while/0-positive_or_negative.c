@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
-* main - display numbers random positive, negative or zero
+* main - display numbers random positive,zero or negative.
 * Return: 0
 */
 
@@ -25,10 +25,6 @@ printf("%d is zero\n", n);
 else if (n < 0)
 {
 printf("%d is negative\n", n);
-}
-else
-{
-printf("ERROR!, invalid number");
 }
 return (0);
 }
