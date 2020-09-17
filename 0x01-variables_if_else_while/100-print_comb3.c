@@ -1,14 +1,13 @@
 #include <stdio.h>
 
-/**
- *main - Display all possible different combinations of two digits
- *Return: 0
- */
+/**                                                                                                                                                                               
+* main - Display all possible different combinations of two digits                                                                                                                
+* Return: 0                                                                                                                                                                       
+*/
 
 int main(void)
 {
-int x;
-int y = 0;
+int x, y;
 
 for (x = 0; x <= 9; x++)
 {
@@ -21,7 +20,6 @@ putchar(',');
 putchar(' ');
 }
 }
-
 putchar('\n');
 return (0);
 }
