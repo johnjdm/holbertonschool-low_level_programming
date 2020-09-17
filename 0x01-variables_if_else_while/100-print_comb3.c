@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Print the numbers of 00 to 99.
+ * main - Inventing is a combination of brains and materials
+ * Description: prints all possible different combinations of two digits.
  * Return: 0
  */
 
@@ -15,7 +16,8 @@ for (y = x + 1; y <= 9; y++)
 {
 putchar((x % 10) + '0');
 putchar((y % 10) + '0');
-if (!(x == 8 && y == 9))
+if (x == 8 && y == 9)
+continue;
 putchar(',');
 putchar(' ');
 }
