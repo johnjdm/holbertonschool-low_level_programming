@@ -1,4 +1,9 @@
-#include<stdio.h>
+#include "holberton.h"
+
+/**
+ *main - Display Holberton, character by character
+ *Return: 0 success
+ */
 
 int main(void)
 {
