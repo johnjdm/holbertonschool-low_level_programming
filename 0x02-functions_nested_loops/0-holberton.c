@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- *main - Display Holberton, character by character
- *Return: 0 success
+ * main - Display Holberton, character by character
+ * Return: 0 success
  */
 
 int main(void)
@@ -19,5 +19,5 @@ _putchar('n');
 
 _putchar('\n');
 
-return 0;
+return (0);
 }
