@@ -1,5 +1,8 @@
 #include <stdio.h>
-
+/**
+* main - Prints the first 50 Fibonacci numbers
+* Return: 0
+*/
 int main(void)
 {
 int i, n = 50, t1 = 1, t2 = 1, nextTerm;
