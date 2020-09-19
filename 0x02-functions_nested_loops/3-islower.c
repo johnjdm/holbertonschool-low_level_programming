@@ -14,10 +14,10 @@ if (c >= 97 && c <= 122)
 {
 sol = 1;
 }
-else if (c >= 65 && c <= 90) 
+if (c >= 65 && c <= 90)
 {
 sol = 0;
 }
 
-return sol;
+return (sol);
 }
