@@ -2,9 +2,9 @@
 
 int main(void)
 {
-int i, n, t1 = 0, t2 = 1, nextTerm;
+int i, n = 50, t1 = 0, t2 = 1, nextTerm;
 
-for (i = 1; i <= 50; ++i)
+for (i = 1; i <= n; ++i)
 {
 printf("%d, ", t1);
 if (t1 == 2)
