@@ -7,11 +7,7 @@
 
 int main(void)
 {
-long nextTerm = 0, par, t1, t2;
-int n;
-
-t1 = 0;
-t2 = 1;
+long t1 = 0, t2 = 1, nextTerm = 0, par = 0;
 
 for (nextTerm = 0; nextTerm <= 4000000; ++nextTerm)
 {
@@ -22,7 +18,6 @@ t2 = nextTerm;
 if ((nextTerm % 2) == 0)
 par = par + nextTerm;
 }
-
 printf("%ld\n", par);
 return (0);
 }
