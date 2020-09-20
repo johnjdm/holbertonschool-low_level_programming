@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Prints the first 50 Fibonacci numbers
- * Return: 0
- */
+* main - Prints the first 50 Fibonacci numbers
+* Return: 0
+*/
 
 int main(void)
 {
@@ -17,7 +17,7 @@ for (nextTerm = 0; nextTerm <= 4000000; ++nextTerm)
 {
 nextTerm = t1 + t2;
 t1 = t2;
-	t2 = nextTerm;
+t2 = nextTerm;
 
 if ((nextTerm % 2) == 0)
 par = par + nextTerm;
