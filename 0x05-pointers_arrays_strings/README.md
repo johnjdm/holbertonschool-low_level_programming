@@ -1,8 +1,8 @@
-#0x05. C - Pointers, arrays and strings
+# 0x05. C - Pointers, arrays and strings
 
-##Description
+## Description
 
-######General
+###### General
 
 - What are pointers and how to use them
 - What are arrays and how to use them
