@@ -2,16 +2,20 @@
 #include <stdlib.h>
 #include <time.h>
 
+/**
+ * main - Create a program that generates random valid passwords
+ * @srand: El mayordomo pone a girar la diana
+ * @rand: Obtencion de un numero aleatorio
+ * @time: Time
+ * Return: dest data
+ */
 
-int main()
+int main(void)
 {
 	srand(time(NULL));
-	int test = rand();
-	int variable = rand();
 
-	printf ("El numero aleatorio de test vale %d\n", test);
-	printf ("Otros numeros aleatorios son: %d\n",rand()) ;
-	printf("La constante RAND_MAX vale %d\n", RAND_MAX);
+	int test = rand();
+	printf("%d\n", test());
 
 	return (0);
 }
