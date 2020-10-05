@@ -1,16 +1,23 @@
-# 0x06. C - More pointers, arrays and strings
+# 0x07. C - Even more pointers, arrays and strings
 
 ## Description
 
-###### More exercise of last c concepts.
+###### General
 
-**0-strcat.c:** function that concatenates two strings.
-**1-strncat.c:** function that concatenates two strings.
-**2-strncpy.c:** function that copies a string.
-**3-strcmp.c:** function that compares two strings.
-**4-rev_array.c:** function that reverses the content of an array of integers.
-**5-string_toupper.c:** function that changes all lowercase letters of a string
-to uppercase.
-**6-cap_string.c:**function that capitalizes all words of a string.
-**7-leet.c:** function that encodes a string into 1337.
-**8-rot13.c:** function that encodes a string using rot13.
+- What are pointers to pointers and how to use them
+- What are multidimensional arrays and how to use them
+= What are the most common C standard library functions to manipulate strings
+
+## Tasks
+
+- **0-memset.c:** fills memory with a constant byte.
+- **1-memcpy.c:** copies memory area.
+- **2-strchr.c:** function that locates a character in a string.
+- **3-strspn.c:** function that gets the length of a prefix substring.
+- **4-strpbrk.c:** function that searches a string for any of a set of bytes.
+- **5-strstr.c:** function that locates a substring.
+- **6-Chess is mental torture:** Write a function that prints the chessboard.
+- **7-print_chessboard.c:** function that prints the chessboard.
+- **8-print_diagsums.c:** function that prints the sum of the two diagonals of a
+square matrix of integers.
+- **9-set_string.c:** function that sets the value of a pointer to a char.
