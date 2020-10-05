@@ -11,6 +11,7 @@
 unsigned int _strspn(char *s, char *accept)
 {
 	int i, j;
+
 	i = 0;
 	j = 0;
 
@@ -23,10 +24,12 @@ unsigned int _strspn(char *s, char *accept)
 				break;
 			}
 		}
-		if(!*(accept + j)){
-			return i;
+		if (!*(accept + j))
+		{
+			return (i);
 		}
 		i++;
 	}
+
 	return (i);
 }
